@@ -1,3 +1,5 @@
+Task 1: Scan Your Local Network for Open Ports
+
 ip 192.168.150.1  
 PORT    STATE SERVICE
 80/tcp   open  http
@@ -15,3 +17,15 @@ Not shown: 1000 closed tcp ports (reset)
 
 Nmap done: 256 IP addresses (4 hosts up) scanned in 13.82 seconds
 only two host have open port 
+
+* Open ports & risks:
+
+192.168.150.1
+
+Port 80 (HTTP): Unencrypted web service — risk of data leak or web app attacks.
+
+Port 8090 (opsmessaging): Likely admin or management service — risk of unauthorized access.
+
+192.168.150.2
+
+Port 53 (DNS): Could allow DNS attacks (amplification, info leakage) if misconfigured.
