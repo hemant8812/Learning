@@ -172,3 +172,10 @@ This document contains a series of email samples analyzed for phishing indicator
 **Reason:** Redirects to malicious password reset page.
 
 ---
+
+
+ Tools Used
+Manual inspection
+Link hover verification
+Domain reputation checks
+Optional: MXToolbox, Google Admin Toolbox
